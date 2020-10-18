@@ -128,5 +128,10 @@
                 </div>
             </div>
         </div>
+    <div>
+        <a href="{{route('hello.index')}}">Hello</a>
+        <a href="/hello/Tom" >Hello2</a>
+        <a href="{{route('hello.index', ['name'=>'Tom'])}}" > Hello3</a>
+    </div>
     </body>
 </html>
